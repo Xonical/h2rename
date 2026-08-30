@@ -24,6 +24,11 @@ RequestExecutionLevel admin
 InstallDir $PROGRAMFILES64\H2rename
 SetCompressor /SOLID lzma
 LicenseData license.txt
+Unicode True
+ManifestDPIAware true
+; Show details by default
+ShowInstDetails show
+
 
 Page license
 Page directory
